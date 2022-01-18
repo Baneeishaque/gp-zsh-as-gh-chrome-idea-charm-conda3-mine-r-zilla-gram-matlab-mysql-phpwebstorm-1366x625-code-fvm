@@ -64,16 +64,16 @@ github:
 
 vscode:
   extensions:
-    - ms-python.python@2020.10.332292344:5ctthQ25Qni5/aAuOIUTYQ==
-    - codezombiech.gitignore@0.6.0:oJP0UqwrXt2Qgt5QRm1BIQ==
-    - maddog986.autodocblocker@1.0.2:ey8TGFw83C4aegTkW13AGA==
-    - guillaumeisabelle.gixdeko-comments@1.0.115:9iBdt1vwBj1/tP0ccsdtvw==
-    - owenfarrell.vscode-microtask@1.0.3:HKM415Hmq45XFIL1HeIdbQ==
-    - naturalclar.workspace-settings-json@0.0.10:dO7CSbCBQvxSAZIgNH/jUQ==
-    - mathiasfrohlich.kotlin@1.7.1:2Uw0hH38NcpgInldjuwF3g==
-    - vikas.code-navigation@0.2.0:1hbbiHl71QiJoOjQyzbewQ==
-    - haugerbr.project-tasks@1.0.0:z8G8HNMDr3s2qYGsbM5MrQ==
-    - mhutchie.git-graph@1.28.0:8NH1WgOknx0p2byYkmBcrQ==
-    - reduckted.vscode-gitweblinks@2.3.0:3DLrLpucmTzBIefwl1BMuQ==
-    - caponetto.vscode-diff-viewer@1.1.1:2Hu660FHk2lvXzT4oy03lw==
-    - adelphes.android-dev-ext@1.3.2:Corsm6bGBL7RCzNWjvZqZw==
+    - ms-python.python@2020.10.332292344
+    - codezombiech.gitignore@0.6.0
+    - maddog986.autodocblocker@1.0.2
+    - guillaumeisabelle.gixdeko-comments@1.0.115
+    - owenfarrell.vscode-microtask@1.0.3
+    - naturalclar.workspace-settings-json@0.0.10
+    - mathiasfrohlich.kotlin@1.7.1
+    - vikas.code-navigation@0.2.0
+    - haugerbr.project-tasks@1.0.0
+    - mhutchie.git-graph@1.28.0
+    - reduckted.vscode-gitweblinks@2.3.0
+    - caponetto.vscode-diff-viewer@1.1.1
+    - adelphes.android-dev-ext@1.3.2
