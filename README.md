@@ -15,6 +15,7 @@
 ### Base Image : [baneeishaque/gp-vnc-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-matlab-mysql-phpwebstorm-1366x625-code](https://hub.docker.com/repository/docker/baneeishaque/gp-vnc-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-matlab-mysql-phpwebstorm-1366x625-code)  
 
 ## Additional Tools
-### &nbsp;&nbsp; - FVM : 2.2.2
+### &nbsp;&nbsp; - FVM : 2.2.6
+### &nbsp;&nbsp; - Flutter : master (with linux-desktop)
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-matlab-mysql-phpwebstorm-1366x625-code-fvm)"

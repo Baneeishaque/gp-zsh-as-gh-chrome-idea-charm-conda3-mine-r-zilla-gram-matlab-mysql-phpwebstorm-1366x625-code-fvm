@@ -3,11 +3,16 @@ FROM baneeishaque/gp-vnc-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-ma
 RUN brew tap leoafarias/fvm \
  && brew install fvm
 
-ENV PATH=/home/linuxbrew/.linuxbrew/Cellar/fvm/2.2.2/bin:$PATH
-
-RUN fvm install 2.2.3 && fvm global 2.2.3
+RUN mkdir -p cd /home/gitpod/fvm/versions \
+ && cd /home/gitpod/fvm/versions \
+ && git clone https://github.com/flutter/flutter.git master\ 
+ && fvm global master
 
 ENV PATH=$HOME/fvm/default/bin:$PATH
+
+RUN flutter config --enable-linux-desktop \
+ && flutter config --single-widget-reload-optimization \
+ && flutter precache
 
 # RUN cd $HOME \
 #  && wget -qO discord_current.deb https://discord.com/api/download?platform=linux&format=deb \
@@ -16,3 +21,8 @@ ENV PATH=$HOME/fvm/default/bin:$PATH
 #      ./discord_current.deb \
 #  && sudo rm -rf /var/lib/apt/lists/* \
 #  && rm discord_current.deb
+
+RUN sudo apt update \
+ && sudo apt install -y \
+     clang cmake ninja-build pkg-config libgtk-3-dev \
+ && sudo rm -rf /var/lib/apt/lists/*
