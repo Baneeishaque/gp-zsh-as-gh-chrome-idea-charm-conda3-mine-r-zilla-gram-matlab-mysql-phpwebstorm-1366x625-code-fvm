@@ -3,7 +3,7 @@ FROM baneeishaque/gp-vnc-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-ma
 RUN brew tap leoafarias/fvm \
  && brew install fvm
 
-RUN mkdir -p cd /home/gitpod/fvm/versions \
+RUN mkdir -p /home/gitpod/fvm/versions \
  && cd /home/gitpod/fvm/versions \
  && git clone https://github.com/flutter/flutter.git master\ 
  && fvm global master
